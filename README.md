@@ -1,6 +1,6 @@
 # parallaxTilt
-一个使html元素呈视觉差倾斜的jQuery插件</br>
-A jQuery plug-in, tilt the picture with parallax.</br></br>
+一个使html元素呈视觉差倾斜的jQuery插件(支持移动端重力感应效果)</br>
+A jQuery plug-in, tilt the picture with parallax.(support the deviceorientation event on mobile.)</br></br>
 [demo](https://lnowave.github.io/parallaxTilt/demo.html)
 
 使用parallaxTilt需要引入jQuery和parallaxTilt.js。
