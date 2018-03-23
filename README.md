@@ -26,7 +26,7 @@ Options设置及默认值
 }
 ```
 
-为了更流畅的动画效果，建议给需要运动的元素加上一下css
+为了更流畅的动画效果，建议给需要运动的元素加上以下css
 ```css
 .tilter_image{
   transition: .5s ease-out;
