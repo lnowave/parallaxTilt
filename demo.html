@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>parallaxTilt-demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<a href="#" id="work" class="parallaxTilt_hover">
+            <figure class="tilter_figure">
+                <img class="tilter_image" src="imgs/demo-img.jpg" alt="dive" />
+                <div class="tilter_deco"></div>
+                <figcaption class="tilter_caption">
+                    <h3 class="tilter_title">Health</h3>
+                    <p class="tilter_tag"><span>UI</span></p>
+                </figcaption>
+            </figure>
+        </a>
+	</div>
+    
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/parallaxTilt.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            $('.tilter_image').parallaxTilt({
+              parallaxMultiple: .18
+            });
+            $('.tilter_deco').parallaxTilt({
+              parallaxMultiple: .05
+            });
+            $('.tilter_caption').parallaxTilt({
+              parallaxMultiple:  -(0.08)
+            });
+
+        })();
+    </script>
+</body>
+</html>
